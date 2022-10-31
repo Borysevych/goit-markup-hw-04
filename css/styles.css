@@ -61,6 +61,16 @@ img{
     margin-left: 93px;
 }
 
+.menu-nav-icons{
+    margin-right: 10px;
+    fill: var(--second-text-color);
+}
+
+.menu-nav-icons:hover,
+.menu-nav-icons:focus{
+    fill: var(--activ-color);
+}
+
 .list-link{
     margin-left: 50px;
 }
