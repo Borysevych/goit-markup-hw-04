@@ -116,6 +116,10 @@ img{
 color: var(--activ-color);
 }
 
+.contacts-link:hover .menu-nav-icons,
+.contacts-link:focus .menu-nav-icons{
+    fill: currentColor;
+}
 
 .contacts,
 .menu-nav{
@@ -127,7 +131,7 @@ color: var(--activ-color);
 
 .menu-nav .link,
 .contacts .contacts-link {
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -144,7 +148,8 @@ color: var(--activ-color);
     linear-gradient(
         #2F303A66 40%, 
         #2F303A66 40%), url("../images/hero-foto.jpg");
-    
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .hero-title{
@@ -345,8 +350,8 @@ color: var(--activ-color);
     fill: #AFB1B8;
 }
 
-.clients-icons:hover,
-.clients-icons:focus{
+.clients-item:hover .clients-icons,
+.clients-item:focus .clients-icons{
     fill: var(--activ-color);
 }
 
