@@ -23,8 +23,16 @@
                 </ul>
             </nav>
             <ul class="contacts list">
-                <li><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a></li>
-                <li class="list-link"><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="contacts-link">
+                        <svg class="menu-nav-icons" width="16" height="12">
+                            <use href="./images/icons.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com</a></li>
+                <li class="list-link"><a href="tel:+380961111111" class="contacts-link">
+                        <svg class="menu-nav-icons" width="10" height="16">
+                            <use href="./images/icons.svg#smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -41,7 +49,7 @@
                 </ul>
                     <ul class="examples list">
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/technokryak.jpg" alt="Технокряк" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Технокряк</h2>
@@ -50,7 +58,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/basketball.jpg" alt="Постер" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Постер New Orlean vs Golden Star</h2>
@@ -59,7 +67,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/seafood.jpg" alt="Ресторан" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Ресторан Seafood</h2>
@@ -68,7 +76,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/prime.jpg" alt="Prime" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Проєкт Prime</h2>
@@ -77,7 +85,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/boxes.jpg" alt="Boxes" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Проєкт Boxes</h2>
@@ -86,7 +94,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/ihnb.jpg" alt="IhnB" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Inspiration has no Borders</h2>
@@ -95,7 +103,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/limited-edition.jpg" alt="Limited Edition" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Видання Limited Edition</h2>
@@ -104,7 +112,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/lab.jpg" alt="LAB" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Проєкт LAB</h2>
@@ -113,7 +121,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://">
+                    <a href="http://" class="example-link">
                     <img src="./images/growing-business.jpg" alt="Growing Business" width="370" height="294">
                     <div class="infos">
                         <h2 class="example-item">Growing Business</h2>
@@ -128,24 +136,58 @@
     <!--Підвал сторінки-->
     <footer class="footer">
         <div class="container">
-            <a href="/" class="logo logo-f">Web<span class="logo-end-f">Studio</span></a>
-            <address>
-                <ul class="adress list">
-                    <li class="adress-li"><a
-                        href="https://goo.gl/maps/xRPYW7kkfp8a4WXSA"
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                        class="adress-link">м. Київ, пр-т Лесі Українки, 26</a>
+            <div>
+                <a href="/" class="logo logo-f">Web<span class="logo-end-f">Studio</span></a>
+                <address>
+                    <ul class="list">
+                        <li class="adress-li"><a href="https://goo.gl/maps/xRPYW7kkfp8a4WXSA" target="_blank"
+                                rel="noopener noreferrer nofollow" class="adress-link">м. Київ, пр-т Лесі Українки, 26</a>
+                        </li>
+                        <li class="adress-li"><a href="mailto:info@devstudio.com" target="_blank"
+                                rel="noopener noreferrer nofollow" class="info-link">info@devstudio.com</a>
+                        </li>
+                        <li class="adress-li"><a href="tel:+380961111111" class="info-link">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div class="f-right">
+                <p class="join">Приєднуйтесь</p>
+                <ul class="socials-list list">
+                    <li class="link-item">
+                        <a href="https://www.instagram.com" class="socials-link" target="_blank"
+                            rel="noopener noreferrer nofollow">
+                            <svg class="socials-icons" width="20" height="20">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="adress-li"><a
-                        href="mailto:info@devstudio.com"
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                        class="info-link">info@devstudio.com</a>
+                    <li class="link-item">
+                        <a href="https://twitter.com" class="socials-link" target="_blank"
+                            rel="noopener noreferrer nofollow">
+                            <svg class="socials-icons" width="20" height="20">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="adress-li"><a href="tel:+380961111111" class="info-link">+38 096 111 11 11</a></li>
+                    <li class="link-item">
+                        <a href="https://www.facebook.com" class="socials-link" target="_blank"
+                            rel="noopener noreferrer nofollow">
+                            <svg class="socials-icons" width="20" height="20">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="link-item">
+                        <a href="https://www.linkedin.com" class="socials-link" target="_blank"
+                            rel="noopener noreferrer nofollow">
+                            <svg class="socials-icons" width="20" height="20">
+                                <use href="./images/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+    
+            </div>
         </div>
     </footer>
     </body>
